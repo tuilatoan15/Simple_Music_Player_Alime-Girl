@@ -1,0 +1,15 @@
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\bin\Release\Simple Music Player.exe.config
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\bin\Release\Simple Music Player.exe
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\bin\Release\Simple Music Player.pdb
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\bin\Release\Interop.WMPLib.dll
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\obj\Release\Simple Music Player.csproj.AssemblyReference.cache
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\obj\Release\Interop.WMPLib.dll
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\obj\Release\AxInterop.WMPLib.dll
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\obj\Release\Simple Music Player.csproj.ResolveComReference.cache
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\obj\Release\Simple_Music_Player.Form1.resources
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\obj\Release\Simple_Music_Player.Properties.Resources.resources
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\obj\Release\Simple Music Player.csproj.GenerateResource.cache
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\obj\Release\Simple Music Player.csproj.CoreCompileInputs.cache
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\obj\Release\Simple Music Player.exe
+C:\Users\Toan\OneDrive\Máy tính\Simple Music Player 2\Simple Music Player\obj\Release\Simple Music Player.pdb

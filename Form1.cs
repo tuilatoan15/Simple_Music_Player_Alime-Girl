@@ -15,10 +15,12 @@ namespace Simple_Music_Player
     public partial class Form1 : Form
     {
         private string settingsFilePath = "Settings.txt";
+        private bool isStoppedByUser = false;
 
         public Form1()
         {
             InitializeComponent();
+            axWindowsMediaPlayer1.settings.volume = 100;
             this.KeyPreview = true;
             this.KeyDown += Form1_KeyDown;
 
@@ -63,7 +65,7 @@ namespace Simple_Music_Player
             open.Title = "Hãy chọn một File để mở!";
             if (open.ShowDialog() == DialogResult.OK)
             {
-                axWindowsMediaPlayer1.URL = open.FileName;
+                axWindowsMediaPlayer1.URL = open.FileName;               
             }
         }
 
@@ -79,7 +81,8 @@ namespace Simple_Music_Player
 
         private void btnStop_Click_1(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.Ctlcontrols.stop();
+            isStoppedByUser = true;
+            axWindowsMediaPlayer1.Ctlcontrols.stop();          
         }
 
         private void btnHelp_Click_1(object sender, EventArgs e)
@@ -106,9 +109,14 @@ namespace Simple_Music_Player
 
         private void axWindowsMediaPlayer1_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
         {
-            if (e.newState == 1)
+            if (e.newState == 1 && !isStoppedByUser)
             {
                 btnPlay.PerformClick();
+            }
+
+            if (e.newState == 3 || e.newState == 1)
+            {
+                isStoppedByUser = false;
             }
         }
 
